@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+How I Started
+</title>
+<link href="style1.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".preko").hover(function(){
+        $(this).css("color", "OrangeRed");
+    });
+  $(".preko").mouseleave(function(){
+        $(this).css("color", "black");
+    });
+});
+
+$(document).ready(function(){
+     $("button").click(function(){
+         $("#as").toggle();
+     });
+});
+</script>
+</head>
+<body>
+<div id="page2">
+
+  <div class="header">
+    <p><a href="index.html">Dušan Ranđelović |</a></p>
+    <ul>
+      <li><a href="#" style="text-transform: uppercase;">How I Started</a></li>
+      <li><a href="page2.html">CodePen Websites</a></li>
+      <li class="plus"><a href="page3.html">Atom Websites and Logos</a>
+        <div class="podstrane">
+          <a href="https://codepen.io/dusanrandjelovic/full/mpMXjB/" target="_blank">This site on CodePen</a>
+          <div>
+      </li>
+      <li><a href="page4.html">WordPress Websites</a></li>
+      <li><a href="page5.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="srediste">
+  <h1>How I Started</h1>
+    <div class="col">
+  <p class="preko">Without any knowledge of coding, about programming, without any knowledge of
+    website creation, I needed to have some clear goal about what I want to learn.
+    This goal was: I want to make a website. With research, firstly, I came to
+    WordPress, free website builder. With WordPress I made couple of websites.
+    Because those sites are tottaly free (free domain name and hosting), they have
+    subdomain .wordpress and some of them have advertisement for WordPress on their
+    pages. But when site was finished, he was not visible on google search. Then, I
+    found that I need to submit URL of my website to google. After that, my site is
+    visible. Nine of my WordPress websites, that I made, are on first google page
+    after search, without typing subdomain .wordpress. You only need to type, for
+    example, mlekara mlecni zalogaj, and you will see this site on first google page.
+    Also, you can type informalno ucenje, and for now, second and third result are my
+    sites. One coded in Atom code editor, other done in WordPress.</p>
+    </div>
+    <div class="col">
+  <p class="preko">My first goal was accomplished. Second goal was: I want to code site.
+    With research, I found W3schools, freeCodeCamp, codecademy, free platforms
+    for learning. I learned HTML5 and CSS3, Bootstrap, and when I started with
+    JavaScript and jQuery, I had first problems to understand how to implement theory
+    in practice. In CodePen I made first sites by coding. But, CodePen is working
+    platform and sites are not visible on google search. I realised that I need code
+    editor and host. I downloaded Atom, free code editor and made files with HTML5 and
+    CSS3. I chose 000webhost to host my sites and simply copy/pasted files on required
+    space on my 000webhost profile. I did not need Filezile. Three sites that I coded,
+    are part of world wide web: informalno ucenje, serbian dogs, prirodnjacki centar
+    sumarak. But, problem with free 000webhost hosting is: suffix on domain name
+    .000webhostapp; 4 hours a day site is sleeping; there are advertisements on site pages.  </p>
+    </div>
+  </div>
+
+  <div>
+    <p style="color: OrangeRed; text-align: center;">____________________</p>
+  </div>
+
+  <div>
+    <button onclick="document.getElementById('as').innerHTML='JavaScript'">What I am learning now?</button>
+  <p id="as"></p>
+  </div>
+
+
+
+  <div class="footer">
+    <div class="levo">
+    <p>&copy; Dusan Randjelovic |</p>
+    <p class="te">dusanrandjelovic92@gmail.com</p>
+    </div>
+    <div class="desno">
+      <p>My LinkedIn profile:</p>
+      <a href="https://www.linkedin.com/in/dusan-randjelovic-98a170134/" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/bubble-gradient-social-media-1/200/linkedin-128.png" /></a>
+    </div>
+  </div>
+
+
+</div>
+</body>
+</html>

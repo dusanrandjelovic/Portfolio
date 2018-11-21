@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: black;
+  background-image: -webkit-linear-gradient(#FFFAFA, #FFFFF0);
+  font-family: Times;
+}
+.header {
+  height: 70px;
+  width: 100%;
+  background-image: -webkit-linear-gradient(#FF4500, #FF8C00);
+  color: Snow;
+  position: fixed;
+  z-index: 1000;
+  opacity: 0.9;
+  top: -8px;
+}
+.header p {
+  padding-left: 50px;
+  padding-top: 22px;
+  float: left;
+  font-size: 150%;
+}
+ul {
+  list-style-type: none;
+  float: right;
+}
+li {
+  display: inline-block;
+  padding-right: 50px;
+  padding-top: 25px;
+  font-size: 120%;
+  letter-spacing: 0.02em;
+}
+a {
+  color: Snow;
+  text-decoration: none;
+}
+a:hover {
+  color: SaddleBrown;
+  text-decoration: none;
+}
+
+.podstrane {
+    display: none;
+	  position: absolute;
+    background-color: #FF4500;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(10,10,10,0.6);
+    z-index: 1;
+  }
+  .podstrane a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .podstrane a:hover {
+    background-color: #b36b00;
+  }
+  .plus:hover .podstrane {
+    display: block;
+  }
+  
+h1 {
+  text-align: center;
+  margin-top: 120px;
+  font-size: 38px;
+}
+h6 {
+  margin: auto;
+  width: 50%;
+  font-size: 18px;
+  line-height: 1.6em;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.grid {
+  display: grid;
+  margin: auto;
+  margin-top: 80px;
+  width: 100%;
+  height: 400px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 290px 290px 290px;
+  grid-gap: 20px;
+  justify-items: center;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+}
+.kvadrat {
+  width: 220px;
+}
+h2 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #ffa500;
+  padding: 10px 0px 10px 10px;
+}
+.opis {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.29;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #4a4a4a;
+  padding: 10px 0px 10px 10px;
+}
+.slika {
+  width: 100%;
+  height: 180px;
+}
+.slika:hover {
+  opacity: 0.8;
+}
+.col-sm-3 {
+  width: 44%;
+  padding: 3%;
+  display: block;
+  padding-bottom: 120px;
+  margin: auto;
+}
+.col-sm-3 img {
+  padding-left: 35px;
+}
+.footer {
+  clear: both;
+  height: 110px;
+  width: 100%;
+  background-image: -webkit-linear-gradient(#FF4500, #FF8C00);
+}
+.levo {
+  float: left;
+  padding-left: 80px;
+  padding-top: 30px;
+}
+.levo p {
+  float: left;
+  color: Snow;
+  font-size: 140%;
+}
+.te {
+  padding-left: 30px;
+}
+.desno {
+  float: right;
+}
+.desno a img {
+  height: 50px;
+  padding-left: 44px;
+}
+.desno p {
+  color: Snow;
+  padding-top: 17px;
+  padding-right: 70px;
+  font-size: 16px;
+}
