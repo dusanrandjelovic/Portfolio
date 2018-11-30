@@ -137,3 +137,19 @@ h3 {
   font-size: 20px;
   padding: 10px;
 }
+.novo {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	
+}
+.novo p {
+	color: black;
+	font-size: 20px;
+}
+.novo a {
+	color: OrangeRed;
+}
+.novo a:hover {
+	color: SaddleBrown;
+}
